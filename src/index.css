@@ -1,0 +1,181 @@
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.aside {
+  display: flex;
+  background-color: rgb(228, 228, 228);
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+  position: relative;
+}
+
+.section-cards {
+  /* border: solid 1px black; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  max-width: 1800px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  max-width: 1800px;
+}
+
+.Users-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  font-size: 20px;
+}
+
+.channels {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.user-container {
+  display: flex;
+  flex-grow: 1 1;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+.userPic {
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.userPic_off {
+  object-fit: cover;
+  opacity: 0.2;
+  color: black;
+  height: 30px;
+  border-radius: 50px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.user-info-wrapper {
+  /* border: solid 1px black; */
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}
+.user-game {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.user-game_off {
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.stream-info {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.dot {
+  font-size: 10px;
+  padding-right: 8px;
+}
+
+.dot_off {
+  font-size: 10px;
+  padding-right: 8px;
+  opacity: 0.2;
+}
+
+.average {
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.average_off {
+  opacity: 0;
+  font-size: 12px;
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+.twitch-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 2000px;
+}
+
+.cardImg {
+  height: 210px;
+  border-radius: 3px;
+}
+
+.cardTitle {
+  font-size: 18px;
+  margin: 5px;
+  padding: 0;
+}
+
+.cardText {
+  font-size: 14px;
+  color: rgb(179, 179, 179);
+  font-weight: 100;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.Cards-main {
+  /* border: dotted 1px black; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1800px;
+  gap: 10px;
+}
